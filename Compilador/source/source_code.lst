@@ -1,0 +1,26 @@
+01 : VACIO                     ********************************************                     
+02 : VACIO                     ********VARIABLES**********                     
+03 : VACIO                     ********************************************                     
+04 : VACIO                     COLUMNA EQU $45                     
+05 : VACIO                     MEMORIA EQU $1789                     
+06 : VACIO                     DDR5 EQU $17                        
+07 : VACIO                     LIST FCB 17,$16                     
+08 : VACIO                                                         
+09 : VACIO                                                         
+10 : VACIO                     ORG  $8000                          
+11 : VACIO                     ********************************************                     
+12 : VACIO                     ********DIRECCIONAMIENTO DIRECTO**********                     
+13 : VACIO                     ********************************************                     
+14 : VACIO                     ORG  $8000                          
+15 : VACIO                                                         
+16 : 8000       01             NOP                                 
+17 : 8001       08             INX                                 
+18 : 8002       09             DEX                                 
+19 : 8003       18 08          INY                                 
+20 : 8005       18 09          DEY                                 
+21 : 8007       3D             MUL                                 
+22 : 8008       8F             XGDX                                
+23 : 8009       18 8F          XGDY                                
+24 : 800B       40             NEGA                                
+25 : 800C       50             NEGB                                
+26 : VACIO                     END                                 
